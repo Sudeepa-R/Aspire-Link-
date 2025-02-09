@@ -3,7 +3,7 @@ import TemplateHeader from "./template-header";
 import TemplateHome from "./template-home";
 
 const DashboardLandingPage = () => {
-  const [bgColor, setBgColor] = useState("#fff");
+  const [bgColor, setBgColor] = useState("transparent");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,7 +24,9 @@ const DashboardLandingPage = () => {
 
   return (
     <>
-      <TemplateHeader BgColor={bgColor} />
+      <div style={{ position: "fixed", top: 0, zIndex: 999, width: "100%" }}>
+        <TemplateHeader BgColor={bgColor} />
+      </div>
       <TemplateHome />
     </>
   );

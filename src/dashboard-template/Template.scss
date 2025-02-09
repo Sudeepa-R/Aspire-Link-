@@ -1,33 +1,48 @@
 // --------- Template Home Page-------------
 
 .TemplateHome {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
+  position: relative;
+  width: 100%;
+  min-height: 190vh;
 }
 
 .TemplateHome::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: url('../assets/backgroundImg.png') no-repeat center center;
-    background-size: cover;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/backgroundImg.png") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+}
+.DemoBtn {
+  font-size: 20px;
+    padding: 20px 15px;
+  margin-left: 20%;
+  border: none;
+  font-family: Roboto;
+}
+.ant-btn.css-dev-only-do-not-override-xex5fb.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid.DemoBtn {
+  background: #fff !important;
+  color: #551a8b;
+}
+.ant-btn.css-dev-only-do-not-override-xex5fb.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid.DemoBtn:hover {
+  background:#551a8b !important;
+  color: #fff !important;
 }
 
 // ..............TemplateHeader............
 
-.TemplateHeader{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content:center;
-    gap: 40px;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.TemplateHeader {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 80px;
+  // position: fixed;
+  // top: 0;
+  width: 100%;
 }
