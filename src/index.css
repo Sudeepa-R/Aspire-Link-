@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; 
+  }

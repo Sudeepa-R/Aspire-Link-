@@ -1,0 +1,33 @@
+// --------- Template Home Page-------------
+
+.TemplateHome {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.TemplateHome::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../assets/backgroundImg.png') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+// ..............TemplateHeader............
+
+.TemplateHeader{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
