@@ -25,6 +25,7 @@ const TemplateHome = () => {
                   display: "flex",
                   justifyContent: "center",
                   flexDirection: "column",
+                  marginTop:"80px"
                 }}
               >
                 <div style={{ marginLeft: "120px" }}>
