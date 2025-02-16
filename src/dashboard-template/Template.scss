@@ -3,7 +3,7 @@
 .TemplateHome {
   position: relative;
   width: 100%;
-  min-height: 190vh;
+  // min-height: 100vh;
 }
 
 .TemplateHome::before {
@@ -19,7 +19,7 @@
 }
 .DemoBtn {
   font-size: 20px;
-    padding: 20px 15px;
+  // padding: 20px 15px;
   margin-left: 20%;
   border: none;
   font-family: Roboto;
@@ -29,8 +29,22 @@
   color: #551a8b;
 }
 .ant-btn.css-dev-only-do-not-override-xex5fb.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid.DemoBtn:hover {
-  background:#551a8b !important;
+  background: #551a8b !important;
   color: #fff !important;
+}
+.ant-statistic-title {
+  font-size: 2rem !important;
+  color: #551a8b !important;
+}
+
+.ant-statistic {
+  margin: 20px;
+}
+.ant-statistic-content-value {
+  font-family: "Roboto";
+}
+.cardShadow:hover{
+  box-shadow: 5px 1px 10px #551A8B;
 }
 
 // ..............TemplateHeader............
