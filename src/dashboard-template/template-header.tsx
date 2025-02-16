@@ -117,8 +117,10 @@ const TemplateHeader = (props: any) => {
         <div style={{ marginLeft: "80px" }}>
           <Button
             type="primary"
-            style={{ background: props.BgColor === "transparent" ? "#fff" : "#551a8b"
-              , color: props.BgColor === "transparent" ? "#551a8b" : "#fff" }}
+            style={{
+              background: props.BgColor === "transparent" ? "#fff" : "#551a8b",
+              color: props.BgColor === "transparent" ? "#551a8b" : "#fff",
+            }}
           >
             Schedule Demo
           </Button>
